@@ -13,7 +13,7 @@ class Environment:
                 if not line or line.startswith('#'):
                     continue
                 k, v = line.split('=', 1)
-                self.dotenv_dict[k] = v
+                self._dotenv_dict[k] = v
 
     def get(self, key: str):
         return self._dotenv_dict[key] if key in self._dotenv_dict else None
