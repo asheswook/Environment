@@ -1,6 +1,6 @@
 # Super Simple Environment
 
-![Release](https://shields.io/github/v/release/asheswook/Environment?display_name=tag&sort=semver) ![build](https://img.shields.io/github/actions/workflow/status/asheswook/Environment/docker-workflow.yml?branch=main)
+![Release](https://shields.io/github/v/release/asheswook/Environment?display_name=tag&sort=semver) ![build](https://img.shields.io/github/actions/workflow/status/asheswook/Environment/docker-workflow.yml?branch=master)
 
 Super Duper Simple, Super Duper Easy dotenv (.env) package in Python.
 
