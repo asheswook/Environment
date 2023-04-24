@@ -8,7 +8,7 @@ requirements = [
 
 setuptools.setup(
     name='ssenv',
-    version='1.0.0',
+    version='1.0.1',
     author='Jaewook Lee',
     author_email='me@jwlee.xyz',
     description='Super Duper Simple dotenv (.env) handler',
