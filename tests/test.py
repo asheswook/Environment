@@ -1,4 +1,4 @@
-import ssenv
+from ..ssenv import ssenv
 
 # Create env instance
 env = ssenv.Environment()
