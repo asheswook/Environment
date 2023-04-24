@@ -48,9 +48,3 @@ You can use the dotenv file by using `get()` method. If you want to get the valu
 ```python
 pwd = env.get('MY_PASSWORD')
 ```
-
-If you don't like to use `get()` method, you can also use the dotenv file by using `[]` operator.
-
-```python
-pwd = env['MY_PASSWORD']
-```
