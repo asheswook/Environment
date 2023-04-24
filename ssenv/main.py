@@ -6,9 +6,6 @@ class Environment:
         self._dotenv_dict = {}
         self.load_dotenv()
     
-    def __str__(self) -> dict:
-        return self._dotenv_dict
-
     def load_dotenv(self):
         with open(self._dotenv_path) as f:
             for line in f:
