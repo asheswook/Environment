@@ -28,9 +28,9 @@ pip install ssenv
 First, you should import the package and create an instance of Environment class.
 
 ```python
-import ssenv
+from ssenv import Environment()
 
-env = ssenv.Environment()
+env = Environment()
 ```
 
 **Load the dotenv**
